@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Java Script Demo</title>
+<script type="text/javascript" >
+function show( )
+{
+var all_list,myul;
+myul=document.getElementById("nav2");
+all_list=myul.getElementsByTagName("li");
+alert(all_list.length);
+alert(all_list[2].innerHTML);
+}
+</script>
+</head>
+<body>
+<ul id="nav1">
+<li>Home</li>
+<li>abc</li>
+<li>pqr</li>
+<li>efg</li>
+<li>xyz</li>
+</ul>
+<ul id="nav2">
+<li>Home</li>
+<li>Products</li>
+<li>Services</li>
+<li>Contact</li>
+<li>About Us</li>
+</ul>
+<input type="button" value="click me" onclick="show();" >
+</body>
+</html>

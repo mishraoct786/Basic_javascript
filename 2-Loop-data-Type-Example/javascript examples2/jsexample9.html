@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Java Script Demo</title>
+<script type="text/javascript" >
+var a;
+var str="You entered ";
+a=parseInt(prompt("enter a positive integer "));
+if(isNaN(a))
+	str+="a non numeric value";
+else if(a<0)
+	str+="a negative number";
+else if(a<=9)
+	str+="a single digit number";
+else if(a<=99)
+	str+="a double digit number";
+else 
+	str+="a number with 3 or more digits";
+
+document.write("<span style='font-size: 30px;font-weight: bold'>"+str+"</span>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

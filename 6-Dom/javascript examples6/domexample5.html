@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Java Script Demo</title>
+<script type="text/javascript" >
+function show( )
+{
+var alluls;
+alluls=document.getElementsByClassName("highlight");
+alert(alluls.length);
+for(i=0;i<alluls.length;i++)
+	alluls[i].style.backgroundColor="green";
+}
+</script>
+</head>
+<body>
+<ul id="nav1" class="highlight">
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">About Us</a></li>
+</ul>
+<ul id="nav2" class="highlight">
+<li><a href="#">Books</a></li>
+<li><a href="#">Mobiles</a></li>
+<li><a href="#">Laptops</a></li>
+</ul>
+<ul id="nav3" class="highlight">
+<li><a href="#">Accesories</a></li>
+<li><a href="#">Clothes</a></li>
+<li><a href="#">Pens</a></li>
+<li><a href="#">Diaries</a></li>
+</ul>
+<input type="button" value="click me" onclick="show();" >
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Form Event Demo</title>
+<script type="text/javascript">
+function show()
+{
+var myform=document.frm;
+var allelem=myform.elements;
+alert("The form has "+allelem.length+" elements");
+}
+</script>
+</head>
+<body>
+<form name="frm">
+Login  Id:<input type="text" name="txtuser" id="userid"><br>
+Password:<input type="password" name="txtpwd" id="userpwd"><br>
+<input type="button" onclick="show()" value="Login">
+</form>
+</body>
+</html>

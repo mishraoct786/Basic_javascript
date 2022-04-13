@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Event Demo</title>
+<style type="text/css">
+#di
+{
+border: dashed  #000 1px;
+height:20%;
+}
+</style>
+<script type="text/javascript">
+function changeColor(x)
+{
+x.style.color="red";
+alert("color changed");
+}
+
+</script>
+</head>
+
+<body>
+<div id="di"  onmouseout="changeColor(this);">
+<a href="http://www.google.com"  >Click Me</a>
+</div>
+</body>
+</html>

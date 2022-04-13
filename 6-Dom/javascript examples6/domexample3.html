@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Java Script Demo</title>
+<script type="text/javascript" >
+function show( )
+{
+var all_list;
+all_list=document.getElementsByTagName("li");
+alert(all_list.length);
+alert(all_list[2].innerHTML);
+}
+</script>
+</head>
+<body>
+<ul id="nav">
+<li>Home</li>
+<li>Products</li>
+<li>Services</li>
+<li>Contact</li>
+<li>About Us</li>
+</ul>
+<input type="button" value="click me" onclick="show();" >
+</body>
+</html>

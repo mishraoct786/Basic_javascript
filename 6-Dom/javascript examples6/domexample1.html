@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Java Script Demo</title>
+<script type="text/javascript" >
+function show( )
+{
+var para;
+para=document.childNodes[0].lastChild;
+var text=para.firstChild;
+alert(text.nodeValue);
+}
+</script>
+</head>
+<body>
+<p>
+This is a sample paragraph.
+</p>
+<input type="button" value="click me" onclick="show();" >
+</body>
+</html>

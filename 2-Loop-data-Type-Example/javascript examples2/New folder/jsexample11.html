@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Java Script Demo</title>
+<script type="text/javascript" >
+var today=new Date( );
+var day=today.getDay();
+var str;
+switch(day)
+{
+	case 0:
+		str="It's SUNDAY";
+		break;
+	case 1:
+		str="It's MONDAY";
+		break;
+	case 2:
+		str="It's TUESDAY";
+		break;
+	case 3:
+		str="It's WEDNESDAY";
+		break;
+	case 4:
+		str="It's THURSDAY";
+		break;
+	case 5:
+		str="It's FRIDAY";
+		break;
+	case 6:
+		str="It's SATURDAY";
+		break;
+}
+document.write("<span style='font-size: 30px;font-weight: bold'>"+str+"</span>");
+</script>
+</head>
+<body>
+
+</body>
+</html>
